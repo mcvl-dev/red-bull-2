@@ -21,7 +21,7 @@ import {
 import { downloadEventIcs } from './utils/calendar';
 
 const HERO_STAGE_IMAGE = '/src/assets/images/hero_symphonic_stage_1794952154130.jpg';
-const ABOUT_ARTIST_IMAGE = '/src/assets/images/about_artist_performance_1794952155921.jpg';
+const ABOUT_ARTIST_IMAGE = '/src/assets/images/sobre_symphonic_brasil_1795002219478.jpg';
 const FOOTER_ORCHESTRA_IMAGE = '/src/assets/images/footer_orchestra_backdrop_1794952156130.jpg';
 
 export default function App() {
@@ -238,10 +238,10 @@ export default function App() {
             {!aboutImgFailed ? (
               <img
                 src={ABOUT_ARTIST_IMAGE}
-                alt="Performance ao vivo de MC Hariel cantando no palco sob luz dourada e azul"
+                alt="Performance ao vivo de MC Hariel com orquestra e regência no palco do Red Bull Symphonic Brasil"
                 referrerPolicy="no-referrer"
                 onError={() => setAboutImgFailed(true)}
-                className="w-full h-full object-cover object-[76%_22%] sm:object-[72%_25%] lg:object-right"
+                className="w-full h-full object-cover object-[72%_20%] sm:object-[70%_20%] lg:object-[75%_center]"
               />
             ) : (
               <div
