@@ -20,8 +20,8 @@ import {
 } from './components/SymphonicOrnaments';
 import { downloadEventIcs } from './utils/calendar';
 
-const HERO_STAGE_IMAGE = '/src/assets/images/hero_symphonic_stage_1794952154130.jpg';
-const ABOUT_ARTIST_IMAGE = '/src/assets/images/sobre_symphonic_brasil_1795002219478.jpg';
+const HERO_STAGE_IMAGE = '/src/assets/images/hero_hariel_xuxa_promo_1795002949032.jpg';
+const ABOUT_ARTIST_IMAGE = '/src/assets/images/sobre_hariel_xuxa_promo_1795002954454.jpg';
 const FOOTER_ORCHESTRA_IMAGE = '/src/assets/images/footer_orchestra_backdrop_1794952156130.jpg';
 
 export default function App() {
@@ -56,10 +56,10 @@ export default function App() {
             {!heroImgFailed ? (
               <img
                 src={HERO_STAGE_IMAGE}
-                alt="Palco do Red Bull Symphonic Brasil com motocicleta esportiva, artistas sob holofotes azuis e orquestra ao fundo"
+                alt="Foto promocional pré-evento do Red Bull Symphonic Brasil com MC Hariel e o maestro Xuxa Levy em estúdio"
                 referrerPolicy="no-referrer"
                 onError={() => setHeroImgFailed(true)}
-                className="w-full h-full object-cover object-[72%_center] sm:object-[68%_center] lg:object-right opacity-95"
+                className="w-full h-full object-cover object-[72%_18%] sm:object-[68%_18%] lg:object-right opacity-95"
               />
             ) : (
               <div
@@ -238,10 +238,10 @@ export default function App() {
             {!aboutImgFailed ? (
               <img
                 src={ABOUT_ARTIST_IMAGE}
-                alt="Performance ao vivo de MC Hariel com orquestra e regência no palco do Red Bull Symphonic Brasil"
+                alt="Ensaio promocional de divulgação com MC Hariel e Xuxa Levy em estúdio junto a violino, violoncelo e partituras"
                 referrerPolicy="no-referrer"
                 onError={() => setAboutImgFailed(true)}
-                className="w-full h-full object-cover object-[72%_20%] sm:object-[70%_20%] lg:object-[75%_center]"
+                className="w-full h-full object-cover object-[74%_18%] sm:object-[72%_18%] lg:object-right"
               />
             ) : (
               <div
@@ -254,7 +254,7 @@ export default function App() {
             )}
 
             {/* Smooth midnight navy fade across the left text column */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#030F24] via-[#030F24]/92 via-45% to-[#030F24]/15" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#030F24] via-[#030F24]/90 via-44% to-[#030F24]/15" />
             <div className="absolute inset-0 bg-gradient-to-b from-[#030F24]/55 via-transparent to-[#020B1C]/75" />
           </div>
 
