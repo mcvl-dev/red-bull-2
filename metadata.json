@@ -1,0 +1,6 @@
+{
+  "name": "Red Bull Symphonic Brasil",
+  "description": "O encontro entre o funk paulista e a música clássica — MC Hariel, Xuxa Levy e orquestra no Auditório Simón Bolívar em São Paulo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
